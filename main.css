@@ -84,49 +84,67 @@ footer {
     background: #0d1b2a; /* Consistent dark blue for footer */
     color: #ffffff;
 }
-/* Contact Section */
+* Contact Section - Bright Text */
 .contact {
     text-align: left;
-    color: #ffffff;
-    background: #0d1b2a;  /* Adding dark background to match */
-    padding: 2em;
 }
 
-/* Specific styling for contact details */
+/* Style for section titles (Address, Phone, Email, Social) */
+.contact h4,
+.contact h3,
+.contact h2,
 .contact strong,
 .contact b {
-    color: #ffffff;
-    display: block;
-    margin-top: 1em;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
+/* Style for all text content in contact section */
 .contact p,
 .contact address,
-.contact a,
-.contact span {
-    color: #ffffff;
-    display: block;
+.contact span,
+.contact div,
+.contact ul,
+.contact li {
+    color: #ffffff !important;
+    font-size: 1em;
+    line-height: 1.6;
     margin-bottom: 1em;
 }
 
-/* Style for section headers (Address, Phone, Email, Social) */
-.contact h4,
-.contact h3,
-.contact h2 {
-    color: #ffffff;
-    font-weight: bold;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-}
-
-/* Social links specific styling */
-.contact .social {
-    color: #ffffff;
+/* Style for links in contact section */
+.contact a {
+    color: #ffffff !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .contact a:hover {
-    color: #ffa500;
+    color: #ffa500 !important; /* Orange hover state */
     text-decoration: underline;
+}
+
+/* Social links */
+.contact .social {
+    color: #ffffff !important;
+}
+
+.contact .social a {
+    color: #ffffff !important;
+}
+
+.contact .social a:hover {
+    color: #ffa500 !important;
+}
+
+/* This ensures all text elements inherit the white color */
+.contact * {
+    color: #ffffff !important;
 }
 
 /* Split Section */
