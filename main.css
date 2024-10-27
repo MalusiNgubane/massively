@@ -48,16 +48,16 @@ body.is-preload #wrapper {
 
 /* Header */
 #header {
-    background: #0a0a0a;
+    background: #0d1b2a; /* Dark blue for trust and elegance */
 }
 
 #header a {
-    color: #fff;
+    color: #f9f9f9; /* Light color for contrast */
 }
 
 /* Nav */
 #nav {
-    background: #0a0a0a;
+    background: #0d1b2a; /* Dark blue to match header */
 }
 
 /* Main */
@@ -67,7 +67,7 @@ body.is-preload #wrapper {
 
 /* Featured Post */
 .post.featured {
-    border-bottom: solid 1px #e6e6e6;
+    border-bottom: solid 1px #e3e6e8; /* Light grey for subtle separation */
     margin-bottom: 2em;
     padding-bottom: 2em;
 }
@@ -95,6 +95,8 @@ body.is-preload #wrapper {
 footer {
     padding: 2em 0;
     text-align: center;
+    background: #0d1b2a; /* Consistent dark blue for footer */
+    color: #ffffff;
 }
 
 .pagination {
@@ -106,15 +108,20 @@ footer {
 .page {
     margin: 0 0.5em;
     padding: 0.25em 0.5em;
-    background: #e6e6e6;
-    color: #6ba010;
+    background: #ffa500; /* Orange for enthusiasm */
+    color: #ffffff;
     text-decoration: none;
     border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.page:hover {
+    background: #ff7f00; /* Slightly darker orange for hover */
 }
 
 .page.active {
-    background: #0a0a0a;
-    color: #fff;
+    background: #1b263b; /* Darker blue for active page */
+    color: #ffffff;
 }
 
 /* Split Section */
@@ -138,6 +145,18 @@ footer {
 #copyright {
     padding: 2em 0;
     text-align: center;
+    color: #ffffff;
+    background: #0d1b2a;
+}
+
+/* Links and Interactive Elements */
+a {
+    color: #ffa500; /* Persuasive orange */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7f00; /* Darker orange for hover effect */
 }
 
 /* Responsive Styles */
@@ -146,3 +165,25 @@ footer {
         flex: 1 0 100%;
     }
 }
+
+/* Additional Styles for Enhancements */
+button,
+input[type="submit"] {
+    background-color: #6ba010; /* Green for growth and friendliness */
+    color: #ffffff;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #4e7900; /* Darker green for hover */
+}
+
+
+
+
+
