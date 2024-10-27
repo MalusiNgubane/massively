@@ -1,5 +1,4 @@
 /* main.css */
-
 /* Reset some default styles */
 body,
 div,
@@ -29,7 +28,6 @@ button {
     margin: 0;
     padding: 0;
 }
-
 /* Set font size and line height for better readability */
 body,
 button,
@@ -38,59 +36,47 @@ select,
 textarea {
     font: 16px/1.5 "Raleway", sans-serif;
 }
-
 /* Add your custom styles below this line */
-
 /* General Styles */
 body.is-preload #wrapper {
     opacity: 0;
 }
-
 /* Header */
 #header {
     background: #0d1b2a; /* Dark blue for trust and elegance */
 }
-
 #header a {
     color: #f9f9f9; /* Light color for contrast */
 }
-
 /* Nav */
 #nav {
     background: #0d1b2a; /* Dark blue to match header */
 }
-
 /* Main */
 #main {
     padding: 2em 0;
 }
-
 /* Featured Post */
 .post.featured {
     border-bottom: solid 1px #e3e6e8; /* Light grey for subtle separation */
     margin-bottom: 2em;
     padding-bottom: 2em;
 }
-
 .post.featured img {
     max-width: 100%;
 }
-
 /* Posts */
 .posts {
     display: flex;
     flex-wrap: wrap;
 }
-
 .posts article {
     flex: 1 0 100%;
     margin-bottom: 2em;
 }
-
 .posts article img {
     max-width: 100%;
 }
-
 /* Footer */
 footer {
     padding: 2em 0;
@@ -98,13 +84,24 @@ footer {
     background: #0d1b2a; /* Consistent dark blue for footer */
     color: #ffffff;
 }
-
+/* Contact Section */
+.contact {
+    text-align: left;
+    color: #ffffff; /* Added white color for contact information */
+}
+.contact p,
+.contact address,
+.contact a {
+    color: #ffffff; /* Ensure all contact text is white */
+}
+.contact a:hover {
+    color: #ffa500; /* Orange on hover for better interaction */
+}
 .pagination {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .page {
     margin: 0 0.5em;
     padding: 0.25em 0.5em;
@@ -114,33 +111,23 @@ footer {
     border-radius: 4px;
     transition: background 0.3s;
 }
-
 .page:hover {
     background: #ff7f00; /* Slightly darker orange for hover */
 }
-
 .page.active {
     background: #1b263b; /* Darker blue for active page */
     color: #ffffff;
 }
-
 /* Split Section */
 .split {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
 }
-
 .split section {
     flex: 1 0 100%;
     margin-bottom: 2em;
 }
-
-/* Contact Section */
-.contact {
-    text-align: left;
-}
-
 /* Copyright */
 #copyright {
     padding: 2em 0;
@@ -148,24 +135,20 @@ footer {
     color: #ffffff;
     background: #0d1b2a;
 }
-
 /* Links and Interactive Elements */
 a {
     color: #ffa500; /* Persuasive orange */
     text-decoration: none;
 }
-
 a:hover {
     color: #ff7f00; /* Darker orange for hover effect */
 }
-
 /* Responsive Styles */
 @media screen and (max-width: 980px) {
     .posts article {
         flex: 1 0 100%;
     }
 }
-
 /* Additional Styles for Enhancements */
 button,
 input[type="submit"] {
@@ -177,13 +160,10 @@ input[type="submit"] {
     cursor: pointer;
     transition: background 0.3s;
 }
-
 button:hover,
 input[type="submit"]:hover {
     background-color: #4e7900; /* Darker green for hover */
 }
-
-
 
 
 
