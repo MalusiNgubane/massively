@@ -1,4 +1,4 @@
-/* main.css */
+/* Main.css */
 /* Reset some default styles */
 body,
 div,
@@ -84,7 +84,7 @@ footer {
     background: #0d1b2a; /* Consistent dark blue for footer */
     color: #ffffff;
 }
-* Contact Section - Bright Text */
+/* Contact Section - Bright Text */
 .contact {
     text-align: left;
 }
@@ -193,6 +193,7 @@ button:hover,
 input[type="submit"]:hover {
     background-color: #4e7900; /* Darker green for hover */
 }
+
 
 
 
